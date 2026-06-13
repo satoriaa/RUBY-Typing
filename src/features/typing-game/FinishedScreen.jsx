@@ -122,7 +122,7 @@ export default function FinishedScreen({ wpm, accuracy, wpmHistory = [], onPlayA
       </header>
 
       {/* CORE STATS CARD */}
-      <div className="w-full rounded-2xl border border-zinc-800/60 bg-gradient-to-b from-zinc-900/40 to-zinc-900/10 backdrop-blur-md shadow-2xl p-6 mb-8">
+  <div className="w-full rounded-2xl border border-zinc-800/60 bg-linear-to-b from-zinc-900/40 to-zinc-900/10 backdrop-blur-md shadow-2xl p-6 mb-8">
         
         {/* SUMMARY BADGES */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8 select-none">

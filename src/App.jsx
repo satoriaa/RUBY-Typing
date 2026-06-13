@@ -23,7 +23,10 @@ export default function App() {
     resetToMenu,
     resetToPlaying,
     handleKeyDown,
+    lines,
+    topLineIndex,
   } = useTypingGame();
+
 
   return (
     /* LAYOUT GLOBAL: 
@@ -63,6 +66,8 @@ export default function App() {
               history={history}
               inputRef={inputRef}
               wordRefs={wordRefs}
+              lines={lines}
+              topLineIndex={topLineIndex}
               onResetTexts={resetToPlaying}
               onBackToMenu={resetToMenu}
               onChangeInput={setCurrentInput}

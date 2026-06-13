@@ -11,7 +11,7 @@ export default function LandingScreen({ selectedDuration, timeOptions, onSelectD
       <div className="relative w-full text-center select-none pt-4">
         {/* Glow Effects - Diubah dari kuning menjadi Merah Crimson transparan */}
         <div className="absolute -top-12 left-1/2 -translate-x-1/2 w-[480px] h-[180px] bg-gradient-to-r from-rose-500/10 via-red-500/5 to-transparent blur-3xl pointer-events-none" />
-        <div className="absolute -top-6 left-1/2 -translate-x-1/2 w-[300px] h-[100px] bg-gradient-to-b from-rose-500/5 to-transparent blur-2xl pointer-events-none" />
+  <div className="absolute -top-6 left-1/2 -translate-x-1/2 w-[300px] h-[100px] bg-linear-to-b from-rose-500/5 to-transparent blur-2xl pointer-events-none" />
 
         <div className="relative">
           <div className="flex items-center justify-center gap-3 text-4xl sm:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-rose-400 via-red-500 to-rose-600 tracking-wide mb-2">
@@ -26,19 +26,19 @@ export default function LandingScreen({ selectedDuration, timeOptions, onSelectD
 
       {/* 2. FEATURE CARDS GRID (Aksen teks diganti ke Rose/Red) */}
       <div className="w-full max-w-3xl grid grid-cols-1 sm:grid-cols-3 gap-3 my-2 select-none">
-        <div className="rounded-xl border border-zinc-800/60 bg-gradient-to-b from-zinc-900/40 to-zinc-900/10 backdrop-blur-md p-4 text-left transition-all duration-300 hover:border-rose-500/30 group">
+  <div className="rounded-xl border border-zinc-800/60 bg-linear-to-b from-zinc-900/40 to-zinc-900/10 backdrop-blur-md p-4 text-left transition-all duration-300 hover:border-rose-500/30 group">
           <div className="text-[10px] font-mono text-rose-400 group-hover:text-rose-300 uppercase tracking-widest font-bold transition-colors">01 / Realtime</div>
           <div className="mt-1.5 text-xs text-zinc-200 font-semibold font-mono">WPM Dinamis</div>
           <div className="mt-1 text-[11px] text-zinc-500 leading-normal">Pantau kecepatan rata-rata ketikanmu secara langsung tiap detik.</div>
         </div>
 
-        <div className="rounded-xl border border-zinc-800/60 bg-gradient-to-b from-zinc-900/40 to-zinc-900/10 backdrop-blur-md p-4 text-left transition-all duration-300 hover:border-rose-500/30 group">
+  <div className="rounded-xl border border-zinc-800/60 bg-linear-to-b from-zinc-900/40 to-zinc-900/10 backdrop-blur-md p-4 text-left transition-all duration-300 hover:border-rose-500/30 group">
           <div className="text-[10px] font-mono text-rose-400 group-hover:text-rose-300 uppercase tracking-widest font-bold transition-colors">02 / Akurasi</div>
           <div className="mt-1.5 text-xs text-zinc-200 font-semibold font-mono">Evaluasi Presisi</div>
           <div className="mt-1 text-[11px] text-zinc-500 leading-normal">Setiap karakter yang salah ketik terekam akurat untuk metrik evaluasi.</div>
         </div>
 
-        <div className="rounded-xl border border-zinc-800/60 bg-gradient-to-b from-zinc-900/40 to-zinc-900/10 backdrop-blur-md p-4 text-left transition-all duration-300 hover:border-rose-500/30 group">
+  <div className="rounded-xl border border-zinc-800/60 bg-linear-to-b from-zinc-900/40 to-zinc-900/10 backdrop-blur-md p-4 text-left transition-all duration-300 hover:border-rose-500/30 group">
           <div className="text-[10px] font-mono text-rose-400 group-hover:text-rose-300 uppercase tracking-widest font-bold transition-colors">03 / Fokus</div>
           <div className="mt-1.5 text-xs text-zinc-200 font-semibold font-mono">Minimalis & Bersih</div>
           <div className="mt-1 text-[11px] text-zinc-500 leading-normal">Layout terpusat, tanpa distraksi visual. Murni kamu dan kodemu.</div>
