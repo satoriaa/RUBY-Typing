@@ -16,7 +16,7 @@ export default function LandingScreen({ selectedDuration, timeOptions, onSelectD
         <div className="relative">
           <div className="flex items-center justify-center gap-3 text-4xl sm:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-rose-400 via-red-500 to-rose-600 tracking-wide mb-2">
 
-            <span>devTyping</span>
+            <span>RUBYTyping</span>
           </div>
           <p className="text-zinc-400 text-xs sm:text-sm tracking-wide font-medium">
             Asah kecepatan dan akurasi mengetik baris kodemu di sini
